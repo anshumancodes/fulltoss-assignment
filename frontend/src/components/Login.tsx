@@ -94,13 +94,13 @@ const Login = () => {
         />
       </div>
       
-      <div className="w-1/3 bg-[#1a1a1a] p-8 z-10 relative">
+      <div className="md:w-[60%] lg:w-1/3 bg-[#1a1a1a] p-8 z-10 relative w-[90%]">
         <div className="w-full max-w-md mx-auto">
           <h1 className="text-4xl font-bold text-center mb-6 tracking-wide text-white/90">
             Fulltoss
           </h1>
           
-          <form onSubmit={handleSubmit} className="space-y-6">
+          <form onSubmit={handleSubmit} className="space-y-6 ">
             <h2 className="text-2xl font-semibold text-center mb-4 text-white/80">
               Login
             </h2>
