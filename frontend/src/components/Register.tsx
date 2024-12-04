@@ -10,7 +10,7 @@ import axios from 'axios';
 
 const Register = () => {
   const navigate = useNavigate();
-  const [isRegistered, setIsRegistered] = useState(false);
+  
   const [registrationStatus, setRegistrationStatus] = useState<{
     success: boolean | null;
     message: string;
@@ -107,7 +107,7 @@ const Register = () => {
         />
       </div>
       
-      <div className="w-1/2 bg-[#1a1a1a] p-8 z-10 relative">
+      <div className=" w-[90%] md:w-[60%] lg:w-1/2 bg-[#1a1a1a] p-8 z-10 relative">
         <div className="w-full max-w-md mx-auto">
           <h1 className="text-4xl font-bold text-center mb-6 tracking-wide text-white/90">
             Fulltoss
