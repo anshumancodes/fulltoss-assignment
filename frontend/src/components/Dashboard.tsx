@@ -1,9 +1,8 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { 
   ShoppingCart, 
   Star, 
   User, 
-  Bell, 
   Heart, 
   Trophy,
   Menu,
