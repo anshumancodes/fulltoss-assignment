@@ -52,6 +52,7 @@ export const UsercontextProvider: React.FC<{ children: React.ReactNode }> = ({ c
       )
       .then((res) => {
         // Update the state with the new team value
+        // @ts-ignore
         setUser((prevState) => ({
           ...prevState,
           team: res.data.team // Update the team value after the API call
