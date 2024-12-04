@@ -17,5 +17,9 @@ import productRoutes from './routes/product.routes.js';
 app.use('/api/user', userRoutes);
 app.use('/api/product', productRoutes);
 
+// render health check page
+app.get('/healthz', (req, res) => {
+  res.send('OK');
+});
 
 export default app;
